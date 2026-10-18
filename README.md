@@ -6,7 +6,7 @@
 
 **A `/` command center for your browser.**
 
-A quiet new tab with a clock, search, slash commands and your links.
+A new way to use your browser. Organize links, run commands, weigh almost nothing.
 
 <a href="#install"><img alt="Chrome" src="https://img.shields.io/badge/Chrome-18181b?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
 <a href="#install"><img alt="Edge" src="https://img.shields.io/badge/Edge-18181b?style=for-the-badge&logo=microsoftedge&logoColor=white"></a>
