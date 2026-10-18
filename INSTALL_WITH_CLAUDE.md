@@ -1,9 +1,9 @@
 # Install Atrium with Claude
 
-This file is written for [Claude Code](https://claude.com/claude-code). To use it, paste this into Claude Code:
+This file is written for [Claude Code](https://claude.com/claude-code). To use it, run this in your terminal:
 
-```
-Install Atrium for me: https://github.com/dpichler-22/atrium. Follow INSTALL_WITH_CLAUDE.md.
+```sh
+claude "Install Atrium for me: https://github.com/dpichler-22/atrium. Follow INSTALL_WITH_CLAUDE.md."
 ```
 
 ---

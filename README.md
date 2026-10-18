@@ -51,13 +51,13 @@ Tested in Chrome on macOS. It should also work in Edge, Brave and other Chromium
 
 ### Install with Claude Code
 
-Paste this into [Claude Code](https://claude.com/claude-code):
+Run this in your terminal. [Claude Code](https://claude.com/claude-code) does the rest ([how it works](INSTALL_WITH_CLAUDE.md)):
 
-```
-Install Atrium for me: https://github.com/dpichler-22/atrium. Follow INSTALL_WITH_CLAUDE.md.
+```sh
+claude "Install Atrium for me: https://github.com/dpichler-22/atrium. Follow INSTALL_WITH_CLAUDE.md."
 ```
 
-It downloads Atrium, offers to set your cities, currencies and links, and walks you through the last click in Chrome. See [INSTALL_WITH_CLAUDE.md](INSTALL_WITH_CLAUDE.md).
+<a href="https://claude.ai/new?q=Explain%20what%20Atrium%20%28https%3A//github.com/dpichler-22/atrium%29%20does%20and%20help%20me%20set%20it%20up."><img alt="Ask Claude about Atrium" src="https://img.shields.io/badge/Ask_Claude_about_Atrium-18181b?style=for-the-badge&logo=claude&logoColor=white"></a>
 
 ## Commands
 
@@ -143,8 +143,8 @@ About 0.2 MB of memory above an empty tab, and the same idle CPU. Nothing runs i
 
 ## Roadmap
 
-- [ ] Personalize commands
 - [ ] More commands and features
+- [ ] Personalize commands
 - [ ] Choose your own world clocks and currencies
 - [ ] Import and export links
 - [ ] Chrome Web Store release
