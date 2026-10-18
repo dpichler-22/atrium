@@ -46,7 +46,7 @@ A new way to use your browser. Organize links, run commands, weigh almost nothin
 
 Tested in Chrome on macOS. It should also work in Edge, Brave and other Chromium browsers.
 
-> <img src="docs/icons/important.svg" width="16" height="16" align="top" alt=""> **Important**
+> <img src="docs/icons/important.svg" width="16" height="16" align="absmiddle" alt=""> **Important**
 >
 > The browser runs Atrium from that folder, so keep it somewhere permanent.
 
