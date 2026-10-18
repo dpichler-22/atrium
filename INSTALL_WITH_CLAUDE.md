@@ -1,14 +1,14 @@
-# Install Atrium with an AI assistant
+# Install Atrium with Claude
 
-This file is written for AI coding assistants such as Claude Code. To use it, paste this into your assistant:
+This file is written for [Claude Code](https://claude.com/claude-code). To use it, paste this into Claude Code:
 
 ```
-Install Atrium for me: https://github.com/dpichler-22/atrium. Follow INSTALL_WITH_AI.md.
+Install Atrium for me: https://github.com/dpichler-22/atrium. Follow INSTALL_WITH_CLAUDE.md.
 ```
 
 ---
 
-## Instructions for the assistant
+## Instructions for Claude
 
 You are installing Atrium, a Chrome new tab extension. Work through the steps in order and keep the user informed in plain language.
 

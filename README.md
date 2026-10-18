@@ -51,13 +51,13 @@ Tested in Chrome on macOS. It should also work in Edge, Brave and other Chromium
 
 ### Install with Claude Code
 
-Paste this into [Claude Code](https://claude.com/claude-code) or another AI coding assistant:
+Paste this into [Claude Code](https://claude.com/claude-code):
 
 ```
-Install Atrium for me: https://github.com/dpichler-22/atrium. Follow INSTALL_WITH_AI.md.
+Install Atrium for me: https://github.com/dpichler-22/atrium. Follow INSTALL_WITH_CLAUDE.md.
 ```
 
-It downloads Atrium, offers to set your cities, currencies and links, and walks you through the last click in Chrome. See [INSTALL_WITH_AI.md](INSTALL_WITH_AI.md).
+It downloads Atrium, offers to set your cities, currencies and links, and walks you through the last click in Chrome. See [INSTALL_WITH_CLAUDE.md](INSTALL_WITH_CLAUDE.md).
 
 ## Commands
 
