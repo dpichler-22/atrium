@@ -46,8 +46,7 @@ A new way to use your browser. Organize links, run commands, weigh almost nothin
 
 Tested in Chrome on macOS. It should also work in Edge, Brave and other Chromium browsers.
 
-> <img src="docs/icons/important.svg" width="16" height="16" align="absmiddle" alt=""> **Important**
->
+> <img src="docs/icons/important.svg" width="16" height="16" align="absmiddle" alt=""> **Important**<br>
 > The browser runs Atrium from that folder, so keep it somewhere permanent.
 
 ### Install with Claude Code
@@ -158,4 +157,4 @@ Have an idea? [Open an issue](../../issues/new/choose). Pull requests are welcom
 
 [MIT](LICENSE) © Davide Pichler
 
-<sub><i>Logos for Claude, ChatGPT, Gemini, YouTube, X, LinkedIn and Google apps are trademarks of their owners. They are included only to identify those services and are not covered by the MIT license.</i></sub>
+<sub><i>Logos for Claude, ChatGPT, Gemini, YouTube, X, LinkedIn, Google apps and other services are trademarks of their owners. They are included only to identify those services and are not covered by the MIT license.</i></sub>
