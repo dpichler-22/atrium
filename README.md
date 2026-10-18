@@ -21,7 +21,7 @@ A new way to use your browser. Organize links, run commands, weigh almost nothin
 
 <br>
 
-<img src="docs/screenshots/hero.png" alt="Atrium in Chrome with vertical tabs: clock, world times, search and a Collection of links" width="760">
+<img src="docs/screenshots/hero.png" alt="Atrium in Chrome with vertical tabs: clock, world times, search and a Collection of links" width="560">
 
 </div>
 
@@ -35,7 +35,7 @@ A new way to use your browser. Organize links, run commands, weigh almost nothin
 - **Built for power users.** Plain HTML, CSS and JavaScript. No frameworks, no tracking.
 
 <div align="center">
-<img src="docs/screenshots/commands.png" alt="The slash command menu in Atrium" width="760">
+<img src="docs/screenshots/commands.png" alt="The slash command menu in Atrium" width="560">
 </div>
 
 ## Install
@@ -53,6 +53,8 @@ Tested in Chrome on macOS. It should also work in Edge, Brave and other Chromium
 
 Type a command, press <kbd>Space</kbd> or <kbd>Tab</kbd>, then your query.
 
+<div align="center">
+
 | Command    | What it does                                       |
 | ---------- | -------------------------------------------------- |
 | `/claude`  | Ask Claude                                         |
@@ -68,6 +70,8 @@ Type a command, press <kbd>Space</kbd> or <kbd>Tab</kbd>, then your query.
 | `/history` | Search your history                                |
 | `/ports`   | Find dev servers running on `localhost`            |
 
+</div>
+
 **Shortcuts:** <kbd>/</kbd> focuses search · <kbd>⌘</kbd>/<kbd>Ctrl</kbd> + <kbd>Enter</kbd> opens in a new tab · <kbd>Ctrl</kbd> + <kbd>C</kbd> clears the bar · <kbd>Esc</kbd> closes menus
 
 **Edit your links** with the pencil in the bottom-left corner.
@@ -75,6 +79,8 @@ Type a command, press <kbd>Space</kbd> or <kbd>Tab</kbd>, then your query.
 ## Privacy
 
 No account, analytics or server. Search queries are never stored, and links stay in your browser profile.
+
+<div align="center">
 
 | Connects to                                    | When                                |
 | ---------------------------------------------- | ----------------------------------- |
@@ -84,14 +90,20 @@ No account, analytics or server. Search queries are never stored, and links stay
 | `accounts.google.com`, `googleusercontent.com` | Only when you open the account menu |
 | `localhost`                                    | Only while `/ports` is open         |
 
+</div>
+
 <details>
 <summary><b>Permissions</b></summary>
+
+<div align="center">
 
 | Permission                            | Why                                                                                                                          |
 | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | `tabs`                                | `/tab` and `/meetnow`                                                                                                        |
 | `history`                             | History results and `/history`                                                                                               |
 | `declarativeNetRequestWithHostAccess` | Removes the `Origin` header on requests to `accounts.google.com`, so the account menu works. See [`rules.json`](rules.json). |
+
+</div>
 
 </details>
 
