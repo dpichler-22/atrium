@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Atrium",
+  "version": "1.3.0",
+  "description": "A quiet new tab: clock, world times, search with commands, and your links.",
+  "minimum_chrome_version": "116",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3hqmRNRtwM+n29IAXYXYH0zqfayiQ/JojFV0w3eGgahM0b3KpcF1Gi3IvzUjlniVMFBljnj4GD2qeCP35Q30xgGlvygALlGicQ1uOtxosG0mG93AUzLQky6GK4XgJ4LOxHku594GWN7oeU8sKvrw3fJ009TLFgU0HNZXRpg6VZgIHJ3gIZDNpvDUv034u3X66W4xYFGUavq+8BJ+FIzlsWD7qn5iIobex7CNENEz6owDyHEOeCB4ZPhgyglrByQI2MiZhsghW5Cf/3RIG+W/Dm5mIwXlhaSham8dW8e4pOsnxbhIl9Wm9Ip6WtxebEJ0oFnQrJuO1amDCJOQ3W5hwQIDAQAB",
+  "icons": {
+    "16": "icons/app-16.png",
+    "32": "icons/app-32.png",
+    "48": "icons/app-48.png",
+    "128": "icons/app-128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": ["tabs", "history", "declarativeNetRequestWithHostAccess"],
+  "host_permissions": [
+    "https://suggestqueries.google.com/*",
+    "https://open.er-api.com/*",
+    "http://localhost/*",
+    "http://127.0.0.1/*",
+    "https://accounts.google.com/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "accounts",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}

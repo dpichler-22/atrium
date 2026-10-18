@@ -1,0 +1,16 @@
+name: Feature request
+description: Suggest a command, a setting or an improvement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What should Atrium do, and what would you use it for?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Anything else?
+      description: Other approaches you've considered, links or mockups.

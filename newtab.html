@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>New Tab</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <!--BODY-->
+    <div class="aura" aria-hidden="true"></div>
+
+    <header class="top">
+      <div class="apps-wrap" id="appsWrap">
+        <button
+          class="icon-btn"
+          id="appsBtn"
+          type="button"
+          aria-label="Google apps"
+          title="Google apps"
+          aria-expanded="false"
+        >
+          <svg width="17" height="17" viewBox="0 0 24 24">
+            <rect width="18" height="18" x="3" y="3" rx="2" />
+            <path d="M3 9h18M3 15h18M9 3v18M15 3v18" />
+          </svg>
+        </button>
+        <div class="apps-menu" id="appsMenu" hidden></div>
+      </div>
+      <div class="acct-wrap" id="acctWrap">
+        <button
+          class="icon-btn acct-btn"
+          id="acctBtn"
+          type="button"
+          aria-label="Google account"
+          aria-expanded="false"
+        ></button>
+        <div class="acct-menu" id="acctMenu" hidden></div>
+      </div>
+    </header>
+
+    <main class="main">
+      <p class="date" id="date">&nbsp;</p>
+      <h1 class="clock" id="clock">&nbsp;</h1>
+
+      <div class="cities">
+        <div><span class="lbl">Dubai</span><span class="val" data-tz="Asia/Dubai">—</span></div>
+        <div><span class="lbl">Roma</span><span class="val" data-tz="Europe/Rome">—</span></div>
+        <div><span class="lbl">New York</span><span class="val" data-tz="America/New_York">—</span></div>
+      </div>
+
+      <div class="rates" id="rates">
+        <span><i class="chip">€</i><em>→</em><b id="usd">—</b><small>USD</small></span>
+        <span><i class="chip">€</i><em>→</em><b id="aed">—</b><small>AED</small></span>
+      </div>
+
+      <form class="search" id="searchForm" role="search" autocomplete="off">
+        <label>
+          <span class="lead" id="lead"
+            ><svg width="16" height="16" viewBox="0 0 24 24" class="muted">
+              <circle cx="11" cy="11" r="8" />
+              <path d="m21 21-4.3-4.3" /></svg
+          ></span>
+          <input
+            id="q"
+            placeholder="Search Google or type a URL"
+            spellcheck="false"
+            role="combobox"
+            aria-expanded="false"
+            aria-controls="suggest"
+            aria-autocomplete="list"
+            aria-label="Search"
+          />
+          <kbd>/</kbd>
+        </label>
+        <div class="suggest" id="suggest" role="listbox" hidden></div>
+      </form>
+
+      <section class="panel" aria-label="Bookmarks">
+        <nav class="tabs" id="tabs" role="tablist"></nav>
+        <div class="crumbs" id="crumbs" hidden></div>
+        <div class="links" id="links"></div>
+      </section>
+    </main>
+
+    <footer class="bottom">
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Theme" title="Theme"></button>
+      <button
+        class="icon-btn"
+        id="editBtn"
+        type="button"
+        aria-label="Edit links"
+        title="Edit links"
+        aria-pressed="false"
+      >
+        <svg width="15" height="15" viewBox="0 0 24 24">
+          <path
+            d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
+          />
+          <path d="m15 5 4 4" />
+        </svg>
+      </button>
+    </footer>
+
+    <div class="toast" id="toast" role="status" hidden></div>
+    <!--/BODY-->
+  </body>
+</html>

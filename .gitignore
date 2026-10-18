@@ -1,0 +1,12 @@
+# Chrome writes this when the extension loads
+_metadata/
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Release builds
+*.zip
