@@ -25,6 +25,8 @@ A new way to use your browser. Organize links, run commands, weigh almost nothin
 
 </div>
 
+<br>
+
 ## Highlights
 
 - **Slash commands.** Ask Claude or ChatGPT, search YouTube or X, start a Google Meet, jump to an open tab or find a local dev server.
