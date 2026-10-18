@@ -26,3 +26,7 @@ Thanks for helping. Atrium is small on purpose, and these rules keep it that way
 ## Reporting bugs and ideas
 
 Use the [issue templates](https://github.com/dpichler-22/atrium/issues/new/choose). For security problems, see [SECURITY.md](SECURITY.md).
+
+## Forking
+
+The `key` in `manifest.json` keeps the extension ID the same wherever the folder lives. If you publish your own version, remove it.
