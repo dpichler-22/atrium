@@ -3,7 +3,7 @@
 This file is written for [Claude Code](https://claude.com/claude-code). To use it, run this in your terminal:
 
 ```sh
-claude "Install Atrium for me: https://github.com/dpichler-22/atrium. Follow INSTALL_WITH_CLAUDE.md."
+claude "Install github.com/dpichler-22/atrium using INSTALL_WITH_CLAUDE.md"
 ```
 
 ---

@@ -51,13 +51,15 @@ Tested in Chrome on macOS. It should also work in Edge, Brave and other Chromium
 
 ### Install with Claude Code
 
-Run this in your terminal. [Claude Code](https://claude.com/claude-code) does the rest ([how it works](INSTALL_WITH_CLAUDE.md)):
+Run this in your terminal. [Claude Code](https://claude.com/claude-code) does the rest ([INSTALL_WITH_CLAUDE.md](INSTALL_WITH_CLAUDE.md)):
 
 ```sh
-claude "Install Atrium for me: https://github.com/dpichler-22/atrium. Follow INSTALL_WITH_CLAUDE.md."
+claude "Install github.com/dpichler-22/atrium using INSTALL_WITH_CLAUDE.md"
 ```
 
+<div align="center">
 <a href="https://claude.ai/new?q=Explain%20what%20Atrium%20%28https%3A//github.com/dpichler-22/atrium%29%20does%20and%20help%20me%20set%20it%20up."><img alt="Ask Claude about Atrium" src="https://img.shields.io/badge/Ask_Claude_about_Atrium-18181b?style=for-the-badge&logo=claude&logoColor=white"></a>
+</div>
 
 ## Commands
 
