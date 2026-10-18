@@ -46,7 +46,6 @@ A new way to use your browser. Organize links, run commands, weigh almost nothin
 
 Tested in Chrome on macOS. It should also work in Edge, Brave and other Chromium browsers.
 
-> [!IMPORTANT]
 > The browser runs Atrium from that folder, so keep it somewhere permanent.
 
 ### Install with Claude Code
