@@ -1,3 +1,16 @@
+// Atrium: a / command center for the new tab page.
+// Plain JavaScript in one file, no dependencies. Every feature has its own "// ----------" section below.
+//
+// Things you may want to change:
+//   CMDS       slash commands (key, name, description, search URL)
+//   DEFAULTS   starter links for a new install (saved links in localStorage win)
+//   APPS       the Google apps menu
+//   COMMON     dev ports that /ports checks
+//   initRates  the base currency (EUR) and the two target currencies (USD, AED)
+//   World clocks and the currency labels live in newtab.html, marked "Customize".
+//
+// Storage: localStorage keys start with "atrium." (links, theme, account, rates cache, ports). Queries are never stored.
+
 (function () {
   'use strict';
 
@@ -195,6 +208,7 @@
   }
 
   // ---------- rates (one request per 6 hours) ----------
+  // To change currencies: edit the base in the URL, the d.rates keys, and the ids and labels in newtab.html.
   function showRates(r) {
     $('usd').textContent = r.usd.toFixed(3);
     $('aed').textContent = r.aed.toFixed(2);

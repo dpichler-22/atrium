@@ -17,7 +17,7 @@ A new way to use your browser. Organize links, run commands, weigh almost nothin
 <img alt="Memory" src="https://img.shields.io/badge/memory-~0.2_MB-27272a?style=flat-square">
 <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-27272a?style=flat-square"></a>
 
-[Highlights](#highlights) · [Install](#install) · [Commands](#commands) · [Privacy](#privacy) · [Roadmap](#roadmap)
+[Highlights](#highlights) · [Install](#install) · [Install with Claude](#install-with-claude-code) · [Commands](#commands) · [Customize](#customize) · [Privacy](#privacy) · [Roadmap](#roadmap)
 
 <br>
 
@@ -49,6 +49,16 @@ Tested in Chrome on macOS. It should also work in Edge, Brave and other Chromium
 > [!IMPORTANT]
 > The browser runs Atrium from that folder, so keep it somewhere permanent.
 
+### Install with Claude Code
+
+Paste this into [Claude Code](https://claude.com/claude-code) or another AI coding assistant:
+
+```
+Install Atrium for me: https://github.com/dpichler-22/atrium. Follow INSTALL_WITH_AI.md.
+```
+
+It downloads Atrium, offers to set your cities, currencies and links, and walks you through the last click in Chrome. See [INSTALL_WITH_AI.md](INSTALL_WITH_AI.md).
+
 ## Commands
 
 Type a command, press <kbd>Space</kbd> or <kbd>Tab</kbd>, then your query.
@@ -75,6 +85,23 @@ Type a command, press <kbd>Space</kbd> or <kbd>Tab</kbd>, then your query.
 **Shortcuts:** <kbd>/</kbd> focuses search · <kbd>⌘</kbd>/<kbd>Ctrl</kbd> + <kbd>Enter</kbd> opens in a new tab · <kbd>Ctrl</kbd> + <kbd>C</kbd> clears the bar · <kbd>Esc</kbd> closes menus
 
 **Edit your links** with the pencil in the bottom-left corner.
+
+## Customize
+
+Some settings are set in the code for now. Each one is marked in the files:
+
+<div align="center">
+
+| Setting        | Where                             |
+| -------------- | --------------------------------- |
+| World clocks   | `newtab.html`, marked `Customize` |
+| Currencies     | `initRates()` in `app.js`         |
+| Starter links  | `DEFAULTS` in `app.js`            |
+| Slash commands | `CMDS` in `app.js`                |
+
+</div>
+
+Reload Atrium in `chrome://extensions` after editing. Saved links aren't affected.
 
 ## Privacy
 
